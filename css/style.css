@@ -67,9 +67,9 @@ th, td {
 .customerName{
     cursor: pointer;
 }
-#chartContainer{
+/* #chartContainer{
     height: 400px;
-}
+} */
 .table-data{
     /* width: 60%; */
     
@@ -78,7 +78,7 @@ th, td {
 .customer-chart{
     /* width: 30%; */
 
-
+    /* max-height: 100px; */
     /* display: none; */
 }
 
