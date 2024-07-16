@@ -3,6 +3,10 @@
 
 
 // error in destroy the charts that already exists, if any item clicked after using inputs to filter the data, there is an error I cannot find any solution for it. if you know how to fix, please send the answer to he email.
+// sol 1: remove click in initialization, add it only after inputs.
+// yours?:
+
+
 let rowData = document.getElementById('rowData');
 
 // script.js
@@ -106,7 +110,7 @@ $(document).ready(function () {
             }
 
             rowData.innerHTML = tableBox;
-            this.showCustomerChart();
+           
             return result;
         }
 
